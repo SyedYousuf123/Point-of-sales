@@ -15,14 +15,14 @@ const AddCustomer = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     addCustomer(formData)
-    setFormData({ name: "", email: "", phone: "" }) // reset form
+    setFormData({ name: "", email: "", phone: "" }) 
   }
 
   return (
     <div className="p-6">
       <Card>
         <CardHeader>
-          <CardTitle>Add Customer</CardTitle>
+          <CardTitle className="text-lg font-semibold">Add Customer</CardTitle>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

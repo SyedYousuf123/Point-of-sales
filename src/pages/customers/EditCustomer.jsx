@@ -33,7 +33,7 @@ const EditCustomer = () => {
     <div className="p-6">
       <Card>
         <CardHeader>
-          <CardTitle>Edit Customer</CardTitle>
+          <CardTitle className="text-lg font-semibold">Edit Customer</CardTitle>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

@@ -46,7 +46,7 @@ const ProductForm = ({ mode = "add", initialData, onSubmit }) => {
     <div className="p-6">
       <Card>
         <CardHeader>
-          <CardTitle>
+          <CardTitle className="text-lg font-semibold">
             {mode === "add" ? "Add New Product" : "Edit Product"}
           </CardTitle>
         </CardHeader>
